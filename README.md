@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ---
 
@@ -40,3 +41,6 @@ JWT_SECRET=your_secret_key
 
 - Frontend runs on: `http://localhost:5173`
 - Backend runs on: `http://localhost:5000`
+=======
+# leave-management-system
+>>>>>>> 7ea8655b86a63165b8990d8b829b7b72cca1ae66
