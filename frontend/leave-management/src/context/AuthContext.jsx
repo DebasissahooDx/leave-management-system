@@ -4,7 +4,6 @@ import { createContext, useState, useEffect } from 'react';
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  // 1. CRITICAL: Initialize directly from storage so it's NOT null on refresh
   const [user, setUser] = useState(() => {
     const savedUser = localStorage.getItem('user');
     try {
