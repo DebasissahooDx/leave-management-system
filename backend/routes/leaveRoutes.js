@@ -28,5 +28,5 @@ router.get('/all', authorizeManager, getAllLeaves);
 router.put('/:id', authorizeManager, updateLeaveStatus);
 router.get('/dashboard/stats', authorizeManager, getManagerDashboard);
 
-// 3. THE CRITICAL EXPORT (This fixes your current error)
+
 export default router;
