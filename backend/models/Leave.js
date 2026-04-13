@@ -10,5 +10,5 @@ const LeaveSchema = new mongoose.Schema({
   managerComment: { type: String, default: '' }
 }, { timestamps: true });
 
-// CHANGE THIS LINE:
+
 export default mongoose.model('Leave', LeaveSchema);
